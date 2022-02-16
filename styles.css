@@ -1,0 +1,256 @@
+/*table of contents
+colors
+fonts
+text styles
+links
+buttons*/
+
+body{
+    margin: 10px;
+    background-color: #FCE2B6;
+    box-sizing: content-box;
+}
+h1 {
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: 'Rosario', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* colors*/
+
+.colors {
+
+    margin:10px auto;
+    text-align: center;
+    padding: 10px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.color-1 {
+    position: relative;
+    background-color: #F1988F;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin:10px;
+    
+}
+
+.color-2 {
+    background-color: #FCCCA5;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin:10px;
+}
+
+.color-3 {
+    background-color: #E7626A;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin:10px;
+}
+
+.color-4 {
+    background-color: #FCE2B6;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin:10px;
+}
+
+.color-5 {
+    background-color: #9F1D34;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin:10px;
+}
+
+/*fonts*/
+
+.fonts {
+    position: relative;
+    margin: 1px auto;
+    text-align: center;
+    padding: 10px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #F1988F;
+}
+
+p.fontbox {
+    float: left;
+    height:290px;
+    width: 290px;
+    padding-top: 50px;
+}
+.font-1 {
+    position: relative;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin:10px;
+    border:5px solid #E7626A;
+    background-color: #FCCCA5;
+   
+}
+
+
+.font-2 {
+    position: relative;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin:10px;
+    border:5px solid #E7626A;
+    background-color: #FCCCA5;
+}
+
+.font-3 {
+    position: relative;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin:10px;
+    border:5px solid #E7626A;
+    background-color: #FCCCA5;
+}
+
+span.h1-1 {
+    font-size: 50px;
+    color:#9F1D34;
+    font-family: 'Lobster Two', cursive;
+}
+
+span.h2-1 {
+    font-size: 35px;
+    color:#9F1D34;
+    font-family: 'Lobster Two', cursive;
+}
+
+span.p1-1 {
+    font-size: 20px;
+    color:#9F1D34;
+    font-family: 'Lobster Two', cursive;
+}
+
+span.h1-2 {
+    font-size: 50px;
+    color:#9F1D34;
+    font-family: 'Rosario', sans-serif;
+}
+
+span.h2-2 {
+    font-size: 35px;
+    font-family: 'Rosario', sans-serif;
+    color:#9F1D34;
+}
+
+span.p1-2 {
+    font-size: 20px;
+    font-family: 'Rosario', sans-serif;
+    color:#9F1D34;
+}
+
+
+span.h1-3 {
+    font-size: 50px;
+    color:#9F1D34;
+    font-family: 'Open Sans', sans-serif;
+}
+
+span.h2-3 {
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    color:#9F1D34;
+}
+
+span.p1-3 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color:#9F1D34;
+}
+
+/*text styles*/
+
+
+.text-styles {
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #F1988F;   
+}
+
+.textbox {
+    display: inline-block;
+    vertical-align: middle;
+    height:350px;
+    /*width: 290px;*/
+      
+    margin: 20px;
+}
+
+.font-style-h1 {
+   position: relative;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin:10px;
+    border:5px solid #E7626A;
+    background-color: #FCCCA5;
+    color:#9F1D34;
+    font-family: "Lobster Two";
+    font-weight: bolder;
+    
+}
+
+.font-style-h2 {
+    position: relative;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin:10px;
+    border:5px solid #E7626A;
+    background-color: #FCCCA5;
+    color:#9F1D34;
+    font-family: "Rosario";
+    font-weight: bold;
+}
+
+.font-style-p {
+    position: relative;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin:10px;
+    border:5px solid #E7626A;
+    background-color: #FCCCA5;
+    color:#9F1D34;
+    font-family: "Open Sans";
+}
+
+
